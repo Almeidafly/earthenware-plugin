@@ -1,0 +1,18 @@
+{
+  "name": "earthenware-plugin",
+  "version": "0.1.0",
+  "description": "Companion skills for the Earthenware Kubernetes scheduler plugin: request-based bin-packing, optional measured heat gate (heatgate principle), tree.json slot layout, and install steps from fitzyracing1/earthenware-k8s manifests. Compiles and unit-tests; not yet tested on a real cluster; no published image.",
+  "author": {
+    "name": "Joshua Almeida",
+    "url": "https://github.com/fitzyracing1"
+  },
+  "homepage": "https://github.com/fitzyracing1/earthenware-plugin",
+  "repository": "https://github.com/fitzyracing1/earthenware-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "earthenware",
+    "earthenware-k8s",
+    "earthenware scheduler",
+    "heatgate"
+  ]
+}
