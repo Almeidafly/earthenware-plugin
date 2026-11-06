@@ -18,6 +18,11 @@ The scheduler compiles and its unit tests pass. It has not been tested on a real
 
 Using these skills does not require a live cluster. Scheduling workloads with Earthenware does: deploy the scheduler from earthenware-k8s and set `schedulerName: earthenware` on those pods. The heat filter is optional (`maxTempC` plus a measured `earthenware.io/temp-c` annotation). heatgate is not required.
 
+
+## Marketplace notes
+
+This plugin ships **skills only** — no MCP server, hooks, commands, or agents. It calls no network endpoints of its own and requires no credentials. Install and apply steps in the skills use files from a checkout of [fitzyracing1/earthenware-k8s](https://github.com/fitzyracing1/earthenware-k8s).
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
